@@ -302,6 +302,16 @@ bandit:
     homebrew:
       packages: [bandit]
   ubuntu: [bandit]
+bats:
+  arch: [bats]
+  debian: [bats]
+  fedora: [bats]
+  gentoo: [dev-util/bats]
+  opensuse: [bats]
+  osx:
+    homebrew:
+      packages: [bats-core]
+  ubuntu: [bats]
 bazaar:
   arch: [breezy]
   debian: [bzr]
